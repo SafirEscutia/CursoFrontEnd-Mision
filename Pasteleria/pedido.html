@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levantar pedido</title>
+</head>
+<body>
+    <h1>Aqui se hace el pedido </h1>
+    <form action="pedido.js">
+        <label for="Nombre">Danos tu Nombre</label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre"><br>
+        <label for="Telefono">Danos tu Telefono</label><br>
+        <input type="text" id="Telefono" name="Telefono" placeholder="Telefono"><br>
+        <label for="Nombre">Danos tus Correo</label><br>
+        <input type="text" id="Correo" name="Corre" placeholder="Correo"><br>
+        <p>¿De que sabor el pastel?</p>
+        <select name="sabor" id="sabor">
+           <option value="chocolate">Chocolate</option>
+           <option value="fresa">Fresa</option>
+           <option value="mango">Mango</option>
+           <option value="vainilla con cajeta">Vainilla con cajeta</option>
+        </select> 
+        <p>¿Cuantos personajes de fondant?</p>
+        <select name="personaje" id="personaje">
+           <option value="Nasa">Nasa (10 personajes)</option>
+           <option value="Apolo">Apolo (9 personajes)</option>
+           <option value="Tripulacion">Tripulacion (8 personajes)</option>
+           <option value="Trasbordador">Trasbordador espacial(7 personajes)</option>
+           <option value="Especialistas en misiones">Especialistas en misiones (6 personajes)</option>
+           <option value="Mercurio">Mercurio (5 personajes)</option>
+           <option value="Geminis">Geminis (4 personajes)</option>
+           <option value="Apolo">Apolo(3 personajes)</option>
+           <option value="Houston">Houston (1-2 personajes)</option>
+        </select>
+        <p>¿Que tipo depastel?</p> 
+        <select name="pastel" id="pastel">
+            <option value="Pastel de vitrina">Pastel de vitrina</option>
+            <option value="Pastel de boda">Pastel de boda</option>
+        </select>
+
+        <br><br>
+        <input type="reset">
+        <input type="Submit">
+        <br><br>
+    </form>
+</body>
+</html>
